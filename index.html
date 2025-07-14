@@ -1,0 +1,118 @@
+<!-- buildforge.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildForge – Custom PC Builds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #111;
+      color: #f0f0f0;
+    }
+    header {
+      background: #0f0f0f;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffd0;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+    .builds {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 150px;
+      padding: 40px 20px;
+    }
+    .build {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px #00ffd044;
+    }
+    .build h2 {
+      color: #00ffd0;
+    }
+    .build ul {
+      padding-left: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #00ffd0;
+      color: #000;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+     .builds img {
+        width: 300px; /* oppure la dimensione che vuoi */
+        height: auto; /* mantiene le proporzioni */
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BuildForge</h1>
+    <p>Custom-built PCs for every type of gamer, streamer, and creator. Fast, powerful, and built with care.</p>
+  </header>
+
+  <section class="builds">
+    <div class="build">
+        <img src="pc.webp">
+      <h2>EntryForge</h2>
+      <ul>
+        <li>Ryzen 5 5600G</li>
+        <li>RTX 3060</li>
+        <li>16GB RAM</li>
+        <li>512GB SSD</li>
+      </ul>
+      <a href="#" class="btn">Starting at €899</a>
+    </div>
+    <div class="build">
+        <img src="4070.webp">
+      <h2>MidForge</h2>
+      <ul>
+        <li>i5 12400F</li>
+        <li>RTX 4060 Ti</li>
+        <li>32GB RAM</li>
+        <li>1TB NVMe</li>
+      </ul>
+      <a href="#" class="btn">Starting at €1299</a>
+    </div>
+    <div class="build">
+        <img src="4080.png">
+      <h2>UltraForge</h2>
+      <ul>
+        <li>Ryzen 9 7900X</li>
+        <li>RTX 4080</li>
+        <li>64GB DDR5</li>
+        <li>2TB Gen4 SSD</li>
+      </ul>
+      <a href="#" class="btn">Starting at €2399</a>
+    </div>
+  </section>
+
+  <footer>
+    Demo site by Pietro • Not an actual store – Just a cool example
+  </footer>
+</body>
+</html>
